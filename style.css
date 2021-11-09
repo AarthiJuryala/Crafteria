@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/bg2.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pexels-ken-tomita-389818.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header h1{
+    margin-top: 100px;
+}
+
+
+
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/webbg.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/*about page*/
+
+.xop-section{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 6% 2%;
+}
+
+.xop-grid{
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.xop-grid li{
+    width: 328px;
+    height: 300px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.xop-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+    float: left;
+}
+
+.xop-img-1{
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)),
+    url(images/toys1.png);
+}
+.xop-img-2{
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)),
+    url(images/painting1.png);
+}
+.xop-img-3{
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)),
+    url(images/pottery1.png);
+}
+.xop-img-4{
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)),
+    url(images/embroidery.png);
+}
+
+.xop-box h3{
+    font-family: 'Brush Script MT';
+    font-weight: 600;
+    color: #fff;
+    font-size: 50px;
+    margin: 0 30px;
+    padding: 100px 0 0 0;
+    line-height: 1.5;
+}
+
+/*about pages*/
+.gallery{
+    border: 1px solid black;
+    box-shadow: 0 0 20px 0 rgb(124, 120, 120);
+    border-radius: 14px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+}
+.des{
+    padding: 15px;
+    text-align: center;
+}
+.responsive{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    float: left;
+    width: 50%;
+}
+
+.responsive1{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    float: left;
+    width: 33.33%;
+}
+.responsive1 p{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*For feedback form*/
+.contact-box{
+    /*padding-top: 90px;*/
+    width: 500px;
+    background-color: #efefef;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgb(124, 120, 120);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+form{
+    margin: 35px;
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+.btn{
+    border-radius: 20px;
+    color: white;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #3bb14d;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+/*For training registeration form*/
+.form-group{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#duration{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+
+
+
+
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
